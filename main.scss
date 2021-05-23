@@ -28,7 +28,7 @@ body {
 
 .sass-introduction {
   border: $border-default;
-  background: map-get($map: $colors, $key: tertiary);
+  background: lighten($color: map-get($map: $colors, $key: main), $amount: 72%) ;
   padding: 2rem;
   text-align: center;
   box-shadow: 0.2rem 0.2rem 0.1rem #ccc;
